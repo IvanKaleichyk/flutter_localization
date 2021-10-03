@@ -1,3 +1,4 @@
 {
-  "hello": "Witaj świecie!"
+  "hello": "Witaj świecie!",
+  "name": "Nazywam się {}"
 }

@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localization/language_const.dart';
+import 'package:flutter_localization/string_key.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -43,7 +44,14 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         body: Center(
-          child: Text("hello".tr()),
+          child: Column(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(StringKey.HELLO.tr()),
+                Text(StringKey.NAME.tr(args: ["Ivan", "17"]))
+              ]),
         ),
       );
 }
