@@ -52,6 +52,8 @@ class MyHomePage extends StatelessWidget {
                 Text(StringKey.HELLO.tr()),
                 Text(StringKey.NAME.tr(args: ["Ivan", "17"])),
                 Text(StringKey.GENDER.tr(gender: Genders.MALE)),
+                Text(StringKey.PLURALS.tr() + StringKey.DAY.plural(21)),
+                Text(StringKey.PLURALS.tr() + StringKey.MONEY.plural(101))
               ]),
         ),
       );

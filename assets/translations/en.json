@@ -1,8 +1,23 @@
 {
   "hello": "Hello World!",
+  "plurals": "Test Plurals ",
   "name": "My name is {}",
-  "gender":{
-    "male":"I,m man ;) {}",
-    "female":"I,m girl :) {}"
+  "gender": {
+    "male": "I,m man ;) {}",
+    "female": "I,m girl :) {}"
+  },
+  "day": {
+    "zero": "{} days",
+    "one": "{} day",
+    "two": "{} days",
+    "few": "{} days",
+    "many": "{} days",
+    "other": "{} days"
+  },
+  "money": {
+    "zero": "You not have money",
+    "one": "You have {} dollar",
+    "many": "You have {} dollars",
+    "other": "You have {} dollars"
   }
 }

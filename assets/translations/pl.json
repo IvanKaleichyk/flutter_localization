@@ -1,8 +1,23 @@
 {
   "hello": "Witaj świecie!",
+  "plurals": "Test Pluralizm ",
   "name": "Nazywam się {}",
   "gender":{
     "male":"Ja facel",
     "female":"Ja, dziewczyna"
+  },
+  "day": {
+    "zero": "{} dni",
+    "one": "{} dzień",
+    "two": "{} dni",
+    "few": "{} dni",
+    "many": "{} dni",
+    "other": "{} dni"
+  },
+  "money": {
+    "zero": "Nie masz pieniądzy",
+    "one": "Mash {} dolar",
+    "many": "Masz {} dollarów",
+    "other": "Masz {} dollarów"
   }
 }

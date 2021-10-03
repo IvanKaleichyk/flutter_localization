@@ -1,4 +1,4 @@
-const String LANGUAGE_ASSETS_PATH = "assets/translations";
+final String LANGUAGE_ASSETS_PATH = "assets/translations";
 
 class LanguageCode{
   static const String en = "en";
