@@ -50,7 +50,8 @@ class MyHomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(StringKey.HELLO.tr()),
-                Text(StringKey.NAME.tr(args: ["Ivan", "17"]))
+                Text(StringKey.NAME.tr(args: ["Ivan", "17"])),
+                Text(StringKey.GENDER.tr(gender: Genders.MALE)),
               ]),
         ),
       );

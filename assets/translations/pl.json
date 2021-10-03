@@ -1,4 +1,8 @@
 {
   "hello": "Witaj świecie!",
-  "name": "Nazywam się {}"
+  "name": "Nazywam się {}",
+  "gender":{
+    "male":"Ja facel",
+    "female":"Ja, dziewczyna"
+  }
 }
